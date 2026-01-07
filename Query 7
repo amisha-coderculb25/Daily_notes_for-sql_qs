@@ -1,0 +1,6 @@
+Q:
+Show first name, last name, and the full province name of each patient.
+Example: 'Ontario' instead of 'ON'
+A:
+select u.first_name, u.last_name, p.province_name from patients u
+join province_names p on p.province_id = u.province_id;
