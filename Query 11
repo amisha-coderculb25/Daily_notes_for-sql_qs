@@ -1,0 +1,4 @@
+Q:
+Show the total number of admissions
+A
+Select count(*) as total_admissions from admissions;
